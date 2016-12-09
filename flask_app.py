@@ -7,5 +7,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello from Flas safsaa as asadsadav d k!'
+    return 'Hello from Flask!'
 
+@app.route('/login')
+def login():
+    return 'Hello from Flask!'
